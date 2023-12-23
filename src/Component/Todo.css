@@ -1,0 +1,41 @@
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.input input {
+  width: 50%;
+  margin: 1px auto;
+}
+.input button {
+  width: 40%;
+  margin: 15px auto;
+  background-color: rgb(6, 6, 240);
+  color: white;
+  border-radius: 15px;
+  border: 0;
+}
+.input button:hover {
+  transform: scale(1.05);
+}
+.todo {
+  margin-top: 10px;
+  width: 30%;
+  height: 80%;
+  border: 1px solid black;
+  background-color: rgb(135, 109, 219);
+}
+.flex {
+  display: flex;
+}
+@media screen and (max-width: 480px) {
+  .main {
+    width: 100%;
+  }
+  .todo {
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+  }
+}
